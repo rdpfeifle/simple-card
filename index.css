@@ -1,0 +1,72 @@
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e2719;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #19422b;
+  border-style: none;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 270px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mountain-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.2rem;
+  object-fit: cover;
+}
+
+p.title {
+  font-size: 1.2rem;
+  color: #ffff;
+  line-height: 119.7%;
+}
+
+p.description {
+  font-weight: 300;
+  color: #8faa9b;
+  font-size: 0.8rem;
+}
+
+.arrow-svg {
+  width: 0.8rem;
+}
+
+@media only screen and (min-width: 550px) {
+  .container {
+    max-width: 600px;
+  }
+
+  a {
+    display: flex;
+  }
+
+  .mountain-img {
+    width: 12rem;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  html {
+    font-size: 18px;
+  }
+}
